@@ -20,6 +20,7 @@ def main():
 
         if scelta == "1":
             nuovo_responsabile = input("Inserisci il nuovo responsabile: ")
+            deposito.responsabile = nuovo_responsabile
             # TODO: Aggiorna responsabile nel sistema
 
         elif scelta == "2":
@@ -69,6 +70,7 @@ def main():
         elif scelta == "7":
             print("Uscita dal programma...")
             break
+
         else:
             print("Opzione non valida!")
 
